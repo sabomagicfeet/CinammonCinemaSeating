@@ -1,7 +1,7 @@
 public class Seat {
 
-    private char row;
-    private int seat;
+    private char row; // A to C
+    private int seat; // 1 to 5
     private boolean isAllocated;
 
     public Seat(char row, int seat, boolean isAllocated) {
@@ -16,13 +16,5 @@ public class Seat {
 
     public void setAllocated(boolean allocated) {
         isAllocated = allocated;
-    }
-
-    public char getRow() {
-        return row;
-    }
-
-    public int getSeat() {
-        return seat;
     }
 }
